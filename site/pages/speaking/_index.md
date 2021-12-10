@@ -37,8 +37,8 @@ If those sound interesting to you, I’d love to be on your show or speak at you
 
 ---
 
-{% from 'components/contact.njk' import contact %}
-{{contact(form='speaking', requestDescription='Your speaking request')}}
+{% from 'components/contact.njk' import speaking %}
+{{speaking()}}
 
 ---
 
